@@ -1,1 +1,1 @@
-# gifTastic
+# gifTastic homework for Northwestern Coding Bootcamp, by Katie McCarthy
