@@ -22,7 +22,8 @@
 	};
 
 	function displayImages(i) {
-		var url = "https://api.giphy.com/v1/gifs/search";
+		//connecting the giphy API! 
+		var url = "https://api.giphy.com/v1/gifs/search"; 
 		url += '?' +$.param({
 		'api_key': "dc6zaTOxFJmzC",
 		'q': categories[i],
