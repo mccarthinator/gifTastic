@@ -1,13 +1,14 @@
   
-
+// array which stores the shows that I'm pre-defining here
 	var categories= ["Stranger Things", "The Great British Baking Show", " The Simpsons", "House of Cards"];
 
-	//displayImages();
+// self explanatory
 	displayButtons();
 	buttonClick();
 	clickImage();
 
 
+// FUNCTIONS
 	function displayButtons() {
 		$("#buttons-div").empty();
 		for (var i = 0; i < categories.length; i++) {
